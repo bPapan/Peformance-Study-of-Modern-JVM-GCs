@@ -1,0 +1,47 @@
+[0.003s][info][gc,init] Initializing The Z Garbage Collector
+[0.003s][info][gc,init] Version: 11.0.15+10-Ubuntu-0ubuntu0.20.04.1 (release)
+[0.003s][info][gc,init] NUMA Support: Disabled
+[0.003s][info][gc,init] CPUs: 1 total, 1 available
+[0.003s][info][gc,init] Memory: 3926M
+[0.003s][info][gc,init] Large Page Support: Disabled
+[0.003s][info][gc,init] Workers: 1 parallel, 1 concurrent
+[0.003s][info][gc,init] Heap backed by file: /memfd:java_heap
+[0.003s][info][gc,init] Available space on backing filesystem: N/A
+[0.032s][info][gc,init] Pre-touching: Disabled
+[0.036s][info][gc,init] Pre-mapping: 62M
+[0.064s][info][gc,init] Runtime Workers: 1 parallel
+[0.064s][info][gc     ] Using The Z Garbage Collector
+[0.994s][info][gc,start] GC(0) Garbage Collection (System.gc())
+[0.994s][info][gc,phases] GC(0) Pause Mark Start 0.204ms
+[1.000s][info][gc,phases] GC(0) Concurrent Mark 6.106ms
+[1.000s][info][gc,phases] GC(0) Pause Mark End 0.084ms
+[1.000s][info][gc,phases] GC(0) Concurrent Process Non-Strong References 0.058ms
+[1.001s][info][gc,phases] GC(0) Concurrent Reset Relocation Set 0.000ms
+[1.001s][info][gc,phases] GC(0) Concurrent Destroy Detached Pages 0.000ms
+[1.009s][info][gc,phases] GC(0) Concurrent Select Relocation Set 7.914ms
+[1.009s][info][gc,phases] GC(0) Concurrent Prepare Relocation Set 0.072ms
+[1.009s][info][gc,phases] GC(0) Pause Relocate Start 0.192ms
+[1.010s][info][gc,phases] GC(0) Concurrent Relocate 0.927ms
+[1.010s][info][gc,load  ] GC(0) Load: 0.80/0.83/0.68
+[1.010s][info][gc,mmu   ] GC(0) MMU: 2ms/89.8%, 5ms/95.9%, 10ms/97.1%, 20ms/97.6%, 50ms/99.0%, 100ms/99.5%
+[1.010s][info][gc,marking] GC(0) Mark: 1 stripe(s), 1 proactive flush(es), 1 terminate flush(es), 0 completion(s), 0 continuation(s) 
+[1.010s][info][gc,reloc  ] GC(0) Relocation: Successful, 1M relocated
+[1.010s][info][gc,nmethod] GC(0) NMethods: 93 registered, 0 unregistered
+[1.010s][info][gc,metaspace] GC(0) Metaspace: 6M used, 6M capacity, 6M committed, 8M reserved
+[1.010s][info][gc,ref      ] GC(0) Soft: 64 encountered, 0 discovered, 0 enqueued
+[1.010s][info][gc,ref      ] GC(0) Weak: 98 encountered, 83 discovered, 48 enqueued
+[1.010s][info][gc,ref      ] GC(0) Final: 3 encountered, 0 discovered, 0 enqueued
+[1.010s][info][gc,ref      ] GC(0) Phantom: 102 encountered, 67 discovered, 42 enqueued
+[1.010s][info][gc,heap     ] GC(0)                Mark Start          Mark End        Relocate Start      Relocate End           High               Low         
+[1.010s][info][gc,heap     ] GC(0)  Capacity:       96M (10%)          96M (10%)          96M (10%)          96M (10%)          96M (10%)          96M (10%)    
+[1.010s][info][gc,heap     ] GC(0)   Reserve:       34M (3%)           34M (3%)           34M (3%)           34M (3%)           34M (3%)           34M (3%)     
+[1.010s][info][gc,heap     ] GC(0)      Free:      938M (96%)         938M (96%)         938M (96%)         944M (96%)         944M (96%)         936M (95%)    
+[1.010s][info][gc,heap     ] GC(0)      Used:       10M (1%)           10M (1%)           10M (1%)            4M (0%)           12M (1%)            4M (0%)     
+[1.010s][info][gc,heap     ] GC(0)      Live:         -                 1M (0%)            1M (0%)            1M (0%)             -                  -          
+[1.010s][info][gc,heap     ] GC(0) Allocated:         -                 0M (0%)            2M (0%)            4M (0%)             -                  -          
+[1.010s][info][gc,heap     ] GC(0)   Garbage:         -                 8M (1%)            6M (1%)            0M (0%)             -                  -          
+[1.010s][info][gc,heap     ] GC(0) Reclaimed:         -                  -                 2M (0%)            8M (1%)             -                  -          
+[1.010s][info][gc          ] GC(0) Garbage Collection (System.gc()) 10M(1%)->4M(0%)
+[8.238s][info][gc,heap,exit] Heap
+[8.238s][info][gc,heap,exit]  ZHeap           used 68M, capacity 102M, max capacity 982M
+[8.238s][info][gc,heap,exit]  Metaspace       used 9449K, capacity 9545K, committed 9728K, reserved 10240K

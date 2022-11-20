@@ -1,0 +1,72 @@
+[0.004s][info][gc,init] Regions: 3977 x 512K
+[0.004s][info][gc,init] Humongous object threshold: 512K
+[0.004s][info][gc,init] Max TLAB size: 512K
+[0.004s][info][gc,init] GC threads: 1 parallel, 1 concurrent
+[0.004s][info][gc     ] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[0.004s][info][gc     ] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[0.004s][info][gc,init] Shenandoah GC mode: Snapshot-At-The-Beginning (SATB)
+[0.004s][info][gc,init] Shenandoah heuristics: Adaptive
+[0.005s][info][gc,ergo] Pacer for Idle. Initial: 40724K, Alloc Tax Rate: 1.0x
+[0.005s][info][gc,init] Initialize Shenandoah heap: 124M initial, 6656K min, 1988M max
+[0.005s][info][gc,init] Safepointing mechanism: global-page poll
+[0.005s][info][gc     ] Using Shenandoah
+[0.005s][info][gc,heap,coops] Heap address: 0x0000000083b80000, size: 1988 MB, Compressed Oops mode: 32-bit
+[0.007s][info][gc,init      ] Reference processing: serial discovery, serial processing
+[0.013s][info][gc           ] Soft Max Heap Size: 1988M -> 1988M
+[0.228s][info][gc           ] Cancelling GC: Stopping VM
+[0.229s][info][gc,heap,exit ] Heap
+[0.229s][info][gc,heap,exit ] Shenandoah Heap
+[0.229s][info][gc,heap,exit ]  1988M max, 1988M soft max, 124M committed, 2048K used
+[0.229s][info][gc,heap,exit ]  3977 x 512K regions
+[0.229s][info][gc,heap,exit ] Status: cancelled
+[0.229s][info][gc,heap,exit ] Reserved region:
+[0.229s][info][gc,heap,exit ]  - [0x0000000083b80000, 0x0000000100000000) 
+[0.229s][info][gc,heap,exit ] Collection set:
+[0.229s][info][gc,heap,exit ]  - map (vanilla): 0x0000000000011077
+[0.229s][info][gc,heap,exit ]  - map (biased):  0x0000000000010000
+[0.229s][info][gc,heap,exit ] 
+[0.229s][info][gc,heap,exit ]  Metaspace       used 701K, capacity 4658K, committed 4864K, reserved 1056768K
+[0.229s][info][gc,heap,exit ]   class space    used 49K, capacity 426K, committed 512K, reserved 1048576K
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ] GC STATISTICS:
+[0.229s][info][gc,stats     ]   "(G)" (gross) pauses include VM time: time to notify and block threads, do the pre-
+[0.229s][info][gc,stats     ]         and post-safepoint housekeeping. Use -XX:+PrintSafepointStatistics to dissect.
+[0.229s][info][gc,stats     ]   "(N)" (net) pauses are the times spent in the actual GC code.
+[0.229s][info][gc,stats     ]   "a" is average time for each phase, look at levels to see if average makes sense.
+[0.229s][info][gc,stats     ]   "lvls" are quantiles: 0% (minimum), 25%, 50% (median), 75%, 100% (maximum).
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ]   All times are wall-clock times, except per-root-class counters, that are sum over
+[0.229s][info][gc,stats     ]   all workers. Dividing the <total> over the root stage time estimates parallelism.
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ]   Pacing delays are measured from entering the pacing code till exiting it. Therefore,
+[0.229s][info][gc,stats     ]   observed pacing delays may be higher than the threshold when paced thread spent more
+[0.229s][info][gc,stats     ]   time in the pacing code. It usually happens when thread is de-scheduled while paced,
+[0.229s][info][gc,stats     ]   OS takes longer to unblock the thread, or JVM experiences an STW pause.
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ]   Higher delay would prevent application outpacing the GC, but it will hide the GC latencies
+[0.229s][info][gc,stats     ]   from the STW pause times. Pacing affects the individual threads, and so it would also be
+[0.229s][info][gc,stats     ]   invisible to the usual profiling tools, but would add up to end-to-end application latency.
+[0.229s][info][gc,stats     ]   Raise max pacing delay with care.
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ] Under allocation pressure, concurrent cycles may cancel, and either continue cycle
+[0.229s][info][gc,stats     ] under stop-the-world pause or result in stop-the-world Full GC. Increase heap size,
+[0.229s][info][gc,stats     ] tune GC heuristics, set more aggressive pacing delay, or lower allocation rate
+[0.229s][info][gc,stats     ] to avoid Degenerated and Full GC cycles.
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ]     0 successful concurrent GCs
+[0.229s][info][gc,stats     ]       0 invoked explicitly
+[0.229s][info][gc,stats     ]       0 invoked implicitly
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ]     0 Degenerated GCs
+[0.229s][info][gc,stats     ]       0 caused by allocation failure
+[0.229s][info][gc,stats     ]       0 upgraded to Full GC
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ]     0 Full GCs
+[0.229s][info][gc,stats     ]       0 invoked explicitly
+[0.229s][info][gc,stats     ]       0 invoked implicitly
+[0.229s][info][gc,stats     ]       0 caused by allocation failure
+[0.229s][info][gc,stats     ]       0 upgraded from Degenerated GC
+[0.229s][info][gc,stats     ] 
+[0.229s][info][gc,stats     ] 

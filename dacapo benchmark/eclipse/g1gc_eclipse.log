@@ -1,0 +1,39 @@
+[0.003s][info][gc,heap] Heap region size: 1M
+[0.003s][info][gc     ] Using G1
+[0.003s][info][gc,heap,coops] Heap address: 0x00000000c2a00000, size: 982 MB, Compressed Oops mode: 32-bit
+[0.406s][info][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[0.406s][info][gc,task      ] GC(0) Using 1 workers of 1 for evacuation
+[0.408s][info][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.0ms
+[0.413s][info][gc,phases    ] GC(0)   Evacuate Collection Set: 2.1ms
+[0.413s][info][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0.1ms
+[0.413s][info][gc,phases    ] GC(0)   Other: 0.3ms
+[0.413s][info][gc,heap      ] GC(0) Eden regions: 3->0(36)
+[0.413s][info][gc,heap      ] GC(0) Survivor regions: 0->1(1)
+[0.413s][info][gc,heap      ] GC(0) Old regions: 0->0
+[0.413s][info][gc,heap      ] GC(0) Humongous regions: 0->0
+[0.413s][info][gc,metaspace ] GC(0) Metaspace: 1036K->1036K(1056768K)
+[0.413s][info][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 3M->0M(62M) 7.122ms
+[0.413s][info][gc,cpu       ] GC(0) User=0.00s Sys=0.00s Real=0.01s
+[2.690s][info][gc,task      ] GC(1) Using 1 workers of 1 for full compaction
+[2.691s][info][gc,start     ] GC(1) Pause Full (System.gc())
+[2.691s][info][gc,phases,start] GC(1) Phase 1: Mark live objects
+[2.698s][info][gc,stringtable ] GC(1) Cleaned string and symbol table, strings: 7767 processed, 14 removed, symbols: 18052 processed, 1 removed
+[2.705s][info][gc,phases      ] GC(1) Phase 1: Mark live objects 14.663ms
+[2.705s][info][gc,phases,start] GC(1) Phase 2: Prepare for compaction
+[2.707s][info][gc,phases      ] GC(1) Phase 2: Prepare for compaction 1.394ms
+[2.707s][info][gc,phases,start] GC(1) Phase 3: Adjust pointers
+[2.714s][info][gc,phases      ] GC(1) Phase 3: Adjust pointers 6.983ms
+[2.714s][info][gc,phases,start] GC(1) Phase 4: Compact heap
+[2.717s][info][gc,phases      ] GC(1) Phase 4: Compact heap 2.585ms
+[2.718s][info][gc,heap        ] GC(1) Eden regions: 16->0(4)
+[2.718s][info][gc,heap        ] GC(1) Survivor regions: 1->0(1)
+[2.718s][info][gc,heap        ] GC(1) Old regions: 0->4
+[2.718s][info][gc,heap        ] GC(1) Humongous regions: 0->0
+[2.718s][info][gc,metaspace   ] GC(1) Metaspace: 6168K->6168K(1056768K)
+[2.718s][info][gc             ] GC(1) Pause Full (System.gc()) 16M->3M(14M) 27.655ms
+[2.718s][info][gc,cpu         ] GC(1) User=0.01s Sys=0.00s Real=0.02s
+[2.909s][info][gc,heap,exit   ] Heap
+[2.910s][info][gc,heap,exit   ]  garbage-first heap   total 14336K, used 3254K [0x00000000c2a00000, 0x0000000100000000)
+[2.910s][info][gc,heap,exit   ]   region size 1024K, 1 young (1024K), 0 survivors (0K)
+[2.910s][info][gc,heap,exit   ]  Metaspace       used 6354K, capacity 7210K, committed 7424K, reserved 1056768K
+[2.910s][info][gc,heap,exit   ]   class space    used 601K, capacity 724K, committed 768K, reserved 1048576K

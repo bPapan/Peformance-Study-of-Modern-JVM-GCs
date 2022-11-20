@@ -1,0 +1,16 @@
+[0.002s][info][gc,init] Initializing The Z Garbage Collector
+[0.002s][info][gc,init] Version: 11.0.15+10-Ubuntu-0ubuntu0.20.04.1 (release)
+[0.002s][info][gc,init] NUMA Support: Disabled
+[0.002s][info][gc,init] CPUs: 1 total, 1 available
+[0.002s][info][gc,init] Memory: 7952M
+[0.002s][info][gc,init] Large Page Support: Disabled
+[0.002s][info][gc,init] Workers: 1 parallel, 1 concurrent
+[0.002s][info][gc,init] Heap backed by file: /memfd:java_heap
+[0.002s][info][gc,init] Available space on backing filesystem: N/A
+[0.042s][info][gc,init] Pre-touching: Disabled
+[0.042s][info][gc,init] Pre-mapping: 126M
+[0.049s][info][gc,init] Runtime Workers: 1 parallel
+[0.049s][info][gc     ] Using The Z Garbage Collector
+[0.239s][info][gc,heap,exit] Heap
+[0.239s][info][gc,heap,exit]  ZHeap           used 4M, capacity 160M, max capacity 1990M
+[0.239s][info][gc,heap,exit]  Metaspace       used 5300K, capacity 5400K, committed 5632K, reserved 8192K
