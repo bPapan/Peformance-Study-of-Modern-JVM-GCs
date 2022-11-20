@@ -1,0 +1,25 @@
+Benchmark,GC,Throughput percentage (%),JVM heap size allocation (mb),JVM heap size peak (mb),Average allocation rate (mbps),Average pause time (ms),Maximum pause time (ms),Total concurrent time (ms)
+chi-square,g1_default,89.882,1294,796,641.07,69.5,350,93.8
+chi-square,sh_default,99.36,1567,1567,352.8,3.08,42.7,15206
+chi-square,z_default,99.44,1423,1137,348.91,1.57,4.2,26868
+dec-tree,g1_default,94.717,400,304,322.72,28,180,208
+dec-tree,sh_default,98.313,1012,1003,91.03,6.24,110,8318
+dec-tree,z_default,99.431,1567,1423,387.12,4.2,16.7,490
+dotty,g1_default,94.537,199,116,37.2,32.2,170,2595
+dotty,sh_default,99.321,318,279,12.83,12.1,64.5,851
+dotty,z_default,99.775,605,535,53.42,4.45,13.3,1497
+fiangle-http,g1_default,98.389,152,60,80.21,18.9,70,20
+fiangle-http,sh_default,99.591,504,503,66.96,4.8,41.8,916
+fiangle-http,z_default,99.824,835,797,117.95,2.09,5.73,1174
+movie-lens,g1_default,97.594,1438,988,1925,10.5,200,2821
+movie-lens,sh_default,99.322,1741,1720,910.94,1.53,42.8,90110
+movie-lens,z_default,96.546,1848,1157,1505,4.17,21.2,336925
+page-rank,g1_default,81.303,1948,774,64.92,83.3,720,12386
+page-rank,sh_default,99.735,1915,1700,134.16,3.08,68.7,67818
+page-rank,z_default,99.554,2067,1909,178.67,2.61,17.4,202318
+philosophers,g1_default,94.799,126,49,327.65,15.6,30,0
+philosophers,sh_default,99.225,185,164,198.21,2.06,6.73,83.3
+philosophers,z_default,99.539,301,267,424.11,0.718,9.28,165
+scala-kmeans,g1_default,84.77,162,113,265.55,35.5,70,0
+scala-kmeans,sh_default,99.154,157,157,225.16,1.83,5.34,262
+scala-kmeans,z_default,99.819,216,181,213.63,0.263,0.742,552

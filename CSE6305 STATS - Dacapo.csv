@@ -1,0 +1,13 @@
+Benchmark,GC,Throughput percentage (%),JVM heap size allocation (mb),JVM heap size peak (mb),Average allocation rate (mbps),Average pause time (ms),Maximum pause time (ms),Total concurrent time (ms)
+h2,g1_default,90.21,642,441,127.27,62.4,420,0
+h2,sh_default,99.901,774,745,42.74,1.08,41.1,14430
+h2,z_default,99.947,982,748,74.39,0.292,0.825,12977
+lusearch,g1_default,98.925,62,21,151.48,10,10,0
+lusearch,sh_default,99.908,252,220,109.97,0.353,2.95,90.8
+lusearch,z_default,99.96,338,300,62.6,0.358,1.81,88.6
+luindex,g1_default,98.265,62,7,3.99,4.99,10,529
+luindex,sh_default,99.905,62,5,,1.83,6.32,2.86
+luindex,z_default,99.994,96,10,1.21,0.16,0.204,15.1
+pmd,g1_default,96.814,99,73,32.33,18.4,70,111
+pmd,sh_default,99.958,259,168,16.71,0.527,1.79,142
+pmd,z_default,99.969,344,306,40.53,0.407,1.17,295
